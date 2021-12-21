@@ -130,6 +130,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\NhaCungCap329Controller.cs" />
+    <Compile Include="Controllers\NTNBSanPhan329Controller.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -188,6 +189,11 @@
     <Content Include="Views\NhaCungCap329\Details.cshtml" />
     <Content Include="Views\NhaCungCap329\Edit.cshtml" />
     <Content Include="Views\NhaCungCap329\Index.cshtml" />
+    <Content Include="Views\NTNBSanPhan329\Create.cshtml" />
+    <Content Include="Views\NTNBSanPhan329\Delete.cshtml" />
+    <Content Include="Views\NTNBSanPhan329\Details.cshtml" />
+    <Content Include="Views\NTNBSanPhan329\Edit.cshtml" />
+    <Content Include="Views\NTNBSanPhan329\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
