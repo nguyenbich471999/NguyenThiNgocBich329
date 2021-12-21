@@ -11,6 +11,7 @@ namespace NguyenThiNgocBich329.Models
             : base("name=LTQLDBContext")
         {
         }
+        public virtual DbSet<NhaCungCap329> NhaCungCap329s { get; set; }
 
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
