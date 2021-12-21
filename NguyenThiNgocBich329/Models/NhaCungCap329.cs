@@ -16,6 +16,7 @@ namespace NguyenThiNgocBich329.Models
         [StringLength(50)]
         [Display(Name = "Tên nhà cung cấp")]
         public string TenNhaCungCap { get; set; }
+        public ICollection<NTNBSanPhan329> NTNBSanPhan329s{ get; set; }
 
 
 
