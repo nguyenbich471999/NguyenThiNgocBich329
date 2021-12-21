@@ -142,7 +142,12 @@
     <Compile Include="Migrations\202112210620598_create-table_loaissp.Designer.cs">
       <DependentUpon>202112210620598_create-table_loaissp.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202112210628496_cretae-table-account.cs" />
+    <Compile Include="Migrations\202112210628496_cretae-table-account.Designer.cs">
+      <DependentUpon>202112210628496_cretae-table-account.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Account.cs" />
     <Compile Include="Models\LTQLDBContext.cs" />
     <Compile Include="Models\NhaCungCap329.cs" />
     <Compile Include="Models\NTNBSanPhan329.cs" />
@@ -217,6 +222,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202112210620598_create-table_loaissp.resx">
       <DependentUpon>202112210620598_create-table_loaissp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112210628496_cretae-table-account.resx">
+      <DependentUpon>202112210628496_cretae-table-account.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
